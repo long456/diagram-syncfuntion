@@ -1,0 +1,12 @@
+.layout {
+    display: flex;
+    height: 100dvh;
+}
+
+.control {
+    padding: 15px;
+}
+
+.control button {
+    margin-right: 8px;
+}

@@ -1,0 +1,14 @@
+<ng-container *ngIf="data.id == 'input'">
+    <p nz-typography nzEditable [(nzContent)]="data.label"></p>
+    <input nz-input  type="text" />
+</ng-container>
+
+<ng-container *ngIf="data.id == 'email'">
+    <p nz-typography nzEditable [(nzContent)]="data.label"></p>
+    <input nz-input  type="email" />
+</ng-container>
+
+<ng-container *ngIf="data.id == 'textArea'">
+    <p nz-typography nzEditable [(nzContent)]="data.label"></p>
+    <textarea rows="4" nz-input ></textarea>
+</ng-container>
